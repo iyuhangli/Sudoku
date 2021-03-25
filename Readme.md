@@ -1,6 +1,12 @@
 ##Android Sudoku Game
 An Android based Sudoku game
 
+##About
+
+* Google Play Store: [Sudoku Game](https://play.google.com/store/apps/details?id=sudokugame.example.sudoku)
+* Email: [iyuhangli@outlook.com](iyuhangli@outlook.com)
+* Github: [iyuhangli](https://github.com/iyuhangli)
+
 ##Description
 Sudoku is a mathematical logic game, it consists of 9x9 cells, players need to infer the remaining digits according to the known digits, to ensure the row , column and nine cells must include 1-9 without duplicate numbers.
 
@@ -26,9 +32,3 @@ The application features are as follows:
 * Auxiliary development tools: Gradle 5.6.4, Android Virtual Device
 * Development language: Java 13.0.1, XML
 * Testing environment: Android 4.0.3 +
-
-##About
-
-* Google Play Store: [Sudoku Game](https://play.google.com/store/apps/details?id=sudokugame.example.sudoku)
-* Email: [iyuhangli@outlook.com](iyuhangli@outlook.com)
-* Github: [iyuhangli](https://github.com/iyuhangli)
