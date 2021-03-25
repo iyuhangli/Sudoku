@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sudokugame.example.sudoku.home_page">
+
+    <ImageView
+        android:id="@+id/sudoku_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sudoku_string"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <ImageView
+        android:id="@+id/sudoku_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sudoku_string"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Button
+        android:id="@+id/new_game_button"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:soundEffectsEnabled="false"
+        android:text="@string/new_game"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sudoku_logo"
+        android:textAllCaps="false"
+        android:background="@drawable/button_background_control"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+    <ImageButton
+        android:id="@+id/setting_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/setting_icon"
+        android:soundEffectsEnabled="false"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/record_icon" />
+
+
+    <ImageButton
+        android:id="@+id/record_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/record_icon"
+        android:soundEffectsEnabled="false"
+
+
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/setting_icon"
+        app:layout_constraintRight_toLeftOf="@id/teaching_icon" />
+
+    <ImageButton
+        android:id="@+id/teaching_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/teaching_icon"
+        android:soundEffectsEnabled="false"
+
+
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/record_icon"
+        app:layout_constraintRight_toLeftOf="@id/about_icon" />
+
+    <ImageButton
+        android:id="@+id/about_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/about_icon"
+        android:soundEffectsEnabled="false"
+
+
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/teaching_icon"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
