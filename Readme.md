@@ -1,7 +1,7 @@
 ## 安卓数独游戏
 基于安卓平台的数独游戏
 
-##关于
+## 关于
 * Google Play 商店：[Sudoku Game](https://play.google.com/store/apps/details?id=sudokugame.example.sudoku)
 * 邮件：[iyuhangli@outlook.com](iyuhangli@outlook.com)
 * Github：[iyuhangli](https://github.com/iyuhangli)
