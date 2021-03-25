@@ -4,7 +4,7 @@
 ## 关于
 * Google Play 商店：[Sudoku Game](https://play.google.com/store/apps/details?id=sudokugame.example.sudoku)
 * 邮件：[iyuhangli@outlook.com](iyuhangli@outlook.com)
-* Github：[iyuhangli](https://github.com/iyuhangli)
+* Github：[iyuhangli](https://github.com/iyuhangli/Sudoku)
 
 ## 描述
 数独是一个数学逻辑游戏，它包括9x9个格子，玩家需要通过已知数字推断出剩余数字，来保证行、列和九宫格包括不重复的数字1-9。
@@ -28,7 +28,7 @@ An Android based Sudoku game
 
 * Google Play Store: [Sudoku Game](https://play.google.com/store/apps/details?id=sudokugame.example.sudoku)
 * Email: [iyuhangli@outlook.com](iyuhangli@outlook.com)
-* Github: [iyuhangli](https://github.com/iyuhangli)
+* Github: [iyuhangli](https://github.com/iyuhangli/Sudoku)
 
 ## Description
 Sudoku is a mathematical logic game, it consists of 9x9 cells, players need to infer the remaining digits according to the known digits, to ensure the row , column and nine cells must include 1-9 without duplicate numbers.
